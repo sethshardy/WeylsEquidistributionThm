@@ -13,8 +13,8 @@ x = []
 y = []
 title = "Gamma = " + str(gamma)
 for i in range(1,n+1):
-    colnum = i % 7
-    colours = ['b.','g.','r.','c.','m.','y.','k.']
+    #colnum = i % 7
+    #colours = ['b.','g.','r.','c.','m.','y.','k.']
     num = "number" + str(i)
     gmod = 2 * np.pi * ((i * gamma) % 1)
     x.append(np.sin(gmod))
